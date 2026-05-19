@@ -1,0 +1,13 @@
+# Игнорируем тяжелые CSV-данные, чтобы Git не ругался
+data/*.csv
+
+# Игнорируем кэш Python и контрольные точки ноутбуков
+__pycache__/
+.ipynb_checkpoints/
+.virtualenv/
+.venv/
+*.pyc
+
+# Игнорируем системные файлы операционных систем
+.DS_Store
+Thumbs.db
